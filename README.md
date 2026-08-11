@@ -1,11 +1,11 @@
-# Computação Gráfica - Híbrido
+# Processamento Gráfico - Fundamentos
 
-Repositório de exemplos de códigos em C++ utilizando OpenGL moderna (3.3+) criado para a Atividade Acadêmica Computação Gráfica do curso de graduação em Ciência da Computação - modalidade híbrida - da Unisinos. Ele é estruturado para facilitar a organização dos arquivos e a compilação dos projetos utilizando CMake.
+Repositório de exemplos de códigos em C++ utilizando OpenGL moderna (3.3+) criado para a Atividade Acadêmica Processamento Gráfico - Fundamentos do curso de graduação em Ciência da Computação - modalidade híbrida - da Unisinos. Ele é estruturado para facilitar a organização dos arquivos e a compilação dos projetos utilizando CMake.
 
 ## 📂 Estrutura do Repositório
 
 ```plaintext
-📂 CGCCHibrido/
+📂 PFFundamentos/
 ├── 📂 include/               # Cabeçalhos e bibliotecas de terceiros
 │   ├── 📂 glad/              # Cabeçalhos da GLAD (OpenGL Loader)
 │   │   ├── glad.h
@@ -14,16 +14,16 @@ Repositório de exemplos de códigos em C++ utilizando OpenGL moderna (3.3+) cri
 ├── 📂 common/                # Código reutilizável entre os projetos
 │   ├── glad.c                # Implementação da GLAD
 ├── 📂 src/                   # Código-fonte dos exemplos e exercícios
-│   ├── Hello3D.cpp           # Exemplo básico de renderização com OpenGL
+│   ├── Exemplo.cpp           # Exemplo básico de renderização com OpenGL
 │   ├── ...                   # Outros exemplos e exercícios futuros
 ├── 📂 build/                 # Diretório gerado pelo CMake (não incluído no repositório)
 ├── 📂 assets/                # diretório com modelos 3D, texturas, fontes etc
 ├── 📄 CMakeLists.txt         # Configuração do CMake para compilar os projetos
 ├── 📄 README.md              # Este arquivo, com a documentação do repositório
-├── 📄 GettingStarted.md      # Tutorial detalhado sobre como compilar usando o CMake
+├── 📄 ConfiguracaoOpenGL.md      # Tutorial detalhado sobre como compilar usando o CMake
 ```
 
-Siga as instruções detalhadas em [GettingStarted.md](GettingStarted.md) para configurar e compilar o projeto.
+Siga as instruções detalhadas em [ConfiguracaoOpenGL.md](ConfiguracaoOpenGL.md) para configurar e compilar o projeto.
 
 ## ⚠️ **IMPORTANTE: Baixar a GLAD Manualmente**
 Para que o projeto funcione corretamente, é necessário **baixar a GLAD manualmente** utilizando o **GLAD Generator**.
