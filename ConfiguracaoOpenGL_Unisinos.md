@@ -62,7 +62,7 @@ Para garantir que deu tudo certo, aperte F1 e execute o comando **CMake: Delete 
 
 ## Passo 6 - Abrir o projeto no VSCode e configurar
 
-Seguir a partir do passo **2. Clonando o Repositório de Exemplo** do tutorial: https://github.com/guilhermechagaskurtz/CGCCHibrido/blob/main/GettingStarted.md
+Seguir a partir do passo **2. Clonando o Repositório de Exemplo** do tutorial: https://github.com/guilhermechagaskurtz/PGFundamentos/blob/main/ConfiguracaoOpenGL.md
 
 ## Passo 7 - Adicionar DLLs no projeto (ANTES DE COMPILAR E EXECUTAR)
 
