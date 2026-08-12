@@ -30,6 +30,8 @@ Descompactar (Sugere-se colocar em Documentos)
 
 Ex:  C:\Users\NOME_DO_USUARIO\Documents\
 
+---
+
 ## Passo 3 - Baixar Git portable no link abaixo:
 
 Link: https://github.com/git-for-windows/git/releases/download/v2.49.0.windows.1/PortableGit-2.49.0-64-bit.7z.exe
@@ -81,7 +83,7 @@ Para garantir que deu tudo certo, aperte F1 e execute o comando **CMake: Delete 
 
 ---
 
-## Passo 8 - Configurando o CMake no VS Code
+## Passo 7 - Configurando o CMake no VS Code
 
 1️⃣ No VS Code, pressione `Ctrl + Shift + P` e procure por `CMake: Scan for kit`
 
@@ -101,7 +103,7 @@ Para garantir que deu tudo certo, aperte F1 e execute o comando **CMake: Delete 
 
 ---
 
-## Passo 9 - Compilando e Executando o Projeto
+## Passo 8 - Compilando e Executando o Projeto
 
 Da mesma forma que o **CMake: Configure** pode executar automaticamente, a compilação pode ocorrer em sequência também de forma automática.
 Caso não ocorra ou você pretenda compilar novamente:
@@ -123,9 +125,9 @@ Se tudo estiver correto, o projeto será compilado e executado com sucesso! 🚀
 
 ---
 
-## Passo 10 - Adicionar DLLs no projeto (ANTES DE COMPILAR E EXECUTAR)
+## Passo 9 - Adicionar DLLs no projeto (ANTES DE COMPILAR E EXECUTAR)
 
-Caso não aconteça nada ao tentar executar os exemplos, vá até a pasta **bin** de onde você descompactou o **msys2** (ou onde ele está instalado, por ex, C:\msys64\ucrt64\bin) e então copie as seguintes dlls para a pasta **build** do seu projeto:
+Caso os exemplos não rode (nada acontece), vá até a pasta **bin** de onde você descompactou o **msys2** (ou onde ele está instalado, por ex, C:\msys64\ucrt64\bin) e então copie as seguintes dlls para a pasta **build** do seu projeto:
 - libstdc++-6.dll
 - libgcc_s_seh-1.dll
 - libwinpthread-1.dll

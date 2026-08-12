@@ -25,6 +25,8 @@ Repositório de exemplos de códigos em C++ utilizando OpenGL moderna (3.3+) cri
 
 Siga as instruções detalhadas em [ConfiguracaoOpenGL.md](ConfiguracaoOpenGL.md) para configurar e compilar o projeto.
 
+⚠️⚠️ Se você estiver em um ambiente que não permite a instalação das ferramentas (na universidade), siga as instruções em [ConfiguracaoOpenGL_Unisinos.md](ConfiguracaoOpenGL_Unisinos.md) para configurar e compilar o projeto.
+
 ## ⚠️ **IMPORTANTE: Baixar a GLAD Manualmente**
 Para que o projeto funcione corretamente, é necessário **baixar a GLAD manualmente** utilizando o **GLAD Generator**.
 
