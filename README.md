@@ -1,11 +1,11 @@
-# Processamento Gráfico - Fundamentos
+# Projeto de OpenGL com C++
 
-Repositório de exemplos de códigos em C++ utilizando OpenGL moderna (3.3+) criado para a Atividade Acadêmica Processamento Gráfico - Fundamentos do curso de graduação em Ciência da Computação da Unisinos. Ele é estruturado para facilitar a organização dos arquivos e a compilação dos projetos utilizando CMake.
+Repositório de exemplos de códigos em C++ utilizando OpenGL moderna (3.3+) criado para as atividades de Computação Gráfica e Processamento Gráfico da Unisinos. Ele é estruturado para facilitar a organização dos arquivos e a compilação dos projetos utilizando CMake.
 
 ## 📂 Estrutura do Repositório
 
 ```plaintext
-📂 PFFundamentos/
+📂 OpenGLProject/
 ├── 📂 include/               # Cabeçalhos e bibliotecas de terceiros
 │   ├── 📂 glad/              # Cabeçalhos da GLAD (OpenGL Loader)
 │   │   ├── glad.h

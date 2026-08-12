@@ -1,4 +1,4 @@
-# Configuração do Ambiente para Computação Gráfica com <img src="https://github.com/user-attachments/assets/db96047c-5e1a-4656-a3af-ee3432f9f35a" alt="OpenGL Logo" height="32" style="vertical-align: middle;" />
+# Configuração do Ambiente de C++ com <img src="https://github.com/user-attachments/assets/db96047c-5e1a-4656-a3af-ee3432f9f35a" alt="OpenGL Logo" height="32" style="vertical-align: middle;" />
 
 Este tutorial irá guiá-lo pela instalação e configuração do ambiente para rodar projetos OpenGL com **CMake** e **VS Code**, utilizando o **MinGW-UCRT64** como compilador (portanto, no **Windows** <img src="https://github.com/user-attachments/assets/ad835449-5f61-4907-a116-b9ced2c8e30d" alt="MS Windows Logo" height="16" style="vertical-align: middle;" />).
 
@@ -102,13 +102,7 @@ Se aparecer algo como **`git version 2.x.x`**, significa que a instalação foi 
 
 Agora vamos baixar o código de exemplo:
 
-1️⃣ **Clone o repositório** no diretório de sua escolha:
-
-```sh
-git clone https://github.com/guilhermechagaskurtz/PGFundamentos.git
-```
-Se você nunca usou o git, pode fazê-lo utilizando o 🔗 [Github Desktop](https://desktop.github.com/download/). Para isso, consulte o seguinte material:
-- [Tutorial de Entregas pelo Github](TutorialEntregasGithub.pdf)
+1️⃣ **Clone o repositório** no diretório de sua escolha: https://github.com/guilhermechagaskurtz/OpenGLProject
 
 2️⃣ Abra o VS Code e vá em `Arquivo -> Abrir Diretório` (ou `File -> Open Folder`). Selecione o diretório onde você clonou o repositório de exemplo.
 
@@ -136,6 +130,8 @@ Se você nunca usou o git, pode fazê-lo utilizando o 🔗 [Github Desktop](http
   
    <img src="https://github.com/user-attachments/assets/ca3bc7f1-5115-48d2-9f39-6a236e18f9b3" alt="" style="width:50%; height:auto;" align="middle"/>
 
+---
+
 ## 📌 4. Compilando e Executando o Projeto
 
 Da mesma forma que o **CMake: Configure** pode executar automaticamente, a compilação pode ocorrer em sequência também de forma automática.
@@ -162,24 +158,20 @@ Se tudo estiver correto, o projeto será compilado e executado com sucesso! 🚀
 
 Agora que seu ambiente está configurado, você pode:
 
-✅ Copiar o conteúdo do repositório clonado para o **seu repositório**. Caso precise de ajuda para criar e organizar seu próprio repositório de exercícios, consulte os seguintes materiais:
-- [Tutorial de Entregas pelo Github](TutorialEntregasGithub.pdf)
-- [Organizando seu repositório no Github](OrganizandoRepositorioGithub.pdf)
-
-✅ Adicionar os exercícios dentro da pasta `src/`
+✅ Adicionar os exemplos e exercícios dentro da pasta `src/`
 ```
 📁 src/
-│── Hello3D.cpp
-│── Transformacoes.cpp
-│── Iluminacao.cpp
+│── Exemplo1.cpp
+│── Exemplo2.cpp
+│── Exemplo3.cpp
 ```
 
-✅ Para cada exercício novo, atualizar o arquivo `CMakelists.txt`
+✅ Para cada exemplo/exercício novo, atualizar o arquivo `CMakelists.txt`
 ```cmake
 set(EXERCISES 
-    Hello3D
-    Transformacoes
-    Iluminacao
+    Exemplo1
+    Exemplo2
+    Exemplo3
 )
 ```
 ✅ Atualmente, o `CMakelists.txt` já está configurado para compilar e gerar o excutável de cada código acrescentado no set EXERCISES. Se necessário, adicionar novas dependências
