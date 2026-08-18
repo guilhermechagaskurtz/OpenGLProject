@@ -58,6 +58,8 @@ Descompactar (clicar 2x)
 
 ⚠️ É muito importante entrar no diretório do projeto pelo comando `Open Folder`. Caso contrário, o VS Code não reconhece o diretório `${workspaceFolder}`, o que poderá causar problemas no passo de compilação.
 
+⚠️⚠️ EVITE SALVAR EM DIRETÓRIOS COM ACENTUAÇÃO, ESPAÇO OU CARACTERES ESPECIAIS. Muitos erros acontecem devido a isso.
+
 ---
 
 ## Passo 6 - Configurar o PATH do Windows
@@ -123,6 +125,12 @@ Caso não ocorra ou você pretenda compilar novamente:
 
 Se tudo estiver correto, o projeto será compilado e executado com sucesso! 🚀
 
+⚠️ Erros nessa etapa:
+- Evite salvar o projeto em uma pasta com nome muito grande, espaços, acentuação ou caracteres especiais.
+- Apague a pasta build, tente compilar novamente.
+- Tente rodar o "scan for kits" novamente.
+- Tente tudo relacionado ao cmake novamente.
+- Uma hora vai...
 ---
 
 ## Passo 9 - Adicionar DLLs no projeto (ANTES DE COMPILAR E EXECUTAR)
