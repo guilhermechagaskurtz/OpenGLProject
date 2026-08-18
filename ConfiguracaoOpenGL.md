@@ -152,6 +152,12 @@ Caso não ocorra ou você pretenda compilar novamente:
 
 Se tudo estiver correto, o projeto será compilado e executado com sucesso! 🚀
 
+⚠️ Erros nessa etapa:
+- Evite salvar o projeto em uma pasta com nome muito grande, espaços, acentuação ou caracteres especiais.
+- Apague a pasta build, tente compilar novamente.
+- Tente rodar o "scan for kits" novamente.
+- Tente tudo relacionado ao cmake novamente.
+- Uma hora vai...
 ---
 
 ## 📌 5. Próximos Passos
